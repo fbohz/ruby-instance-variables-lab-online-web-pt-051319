@@ -8,5 +8,8 @@ class Dog
   end
 end
 
+lassie = Dog.new 
+lassie.name = "Lassie" #uses setter instance method
 
+puts lassie.name #uses getter inst method
   
